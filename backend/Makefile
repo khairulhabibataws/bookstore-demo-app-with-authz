@@ -1,6 +1,6 @@
 all: build deploy
 ORIGIN ?= http://localhost:8080
-STACKNAME ?= bookstore-demo-app-with-authz
+STACKNAME ?= amplify-bookstore-demo-app-with-authz
 
 build:
 	@echo "Building template $(TEMPLATE).yaml..."
