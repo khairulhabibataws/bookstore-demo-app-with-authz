@@ -8,6 +8,6 @@ serve:
 build:
 	npm install
 	npm run fetchConfig local
-	npm build
+	npm run build
 
 .PHONY: build serve
