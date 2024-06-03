@@ -85,7 +85,7 @@ for user in USERS:
             Username=user['username']
         )
 
-        print(f'Deleted user: {user["username"]}')
+        print(f'Deleted user 1: {user["username"]}')
     elif command == 'create':
         cognito_client.admin_create_user(
             UserPoolId=cognito_user_pool_id,
